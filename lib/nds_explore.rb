@@ -10,6 +10,6 @@ end
 
 def print_first_directors_movie_titles
   for x in directors_database
-    stdout(x)
+    stdout.puts x
   end
 end
