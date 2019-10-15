@@ -10,6 +10,6 @@ end
 
 def print_first_directors_movie_titles
   for x in directors_database
-    puts x[1]
+    puts x[0]
   end
 end
