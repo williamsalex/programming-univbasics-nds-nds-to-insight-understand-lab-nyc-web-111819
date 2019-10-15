@@ -10,6 +10,6 @@ end
 
 def print_first_directors_movie_titles
   for x in directors_database
-    puts x[Stephen Spielberg]
+    puts type(x)
   end
 end
