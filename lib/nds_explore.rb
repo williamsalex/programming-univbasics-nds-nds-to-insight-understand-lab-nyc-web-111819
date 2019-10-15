@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   for x in directors_database
     for y in x
-      puts y["Stephen Spielberg"]
+      puts y[1]
     end
   end
 end
